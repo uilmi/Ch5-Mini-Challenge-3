@@ -19,13 +19,11 @@ function postRegistration(req, res) {
     });
 
     res.status(200).json({ status: 'success' });
-    res.end();
 }
 
 // TODO: lengkapi fungsi ini untuk menampilkan isi dari array `user`
 function getUsers(req, res) {
     res.status(200).json(user);
-    res.end();
 }
 
 // TODO: buat 2 pemanggilan app.METHOD disini
